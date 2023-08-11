@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   node_1:
-    image: ubicloud/ubic-hello-world:latest
+    image: docker.io/snakelyh/inichain-hello-world:latest
     ports:
       - '80:80'
 	environment:

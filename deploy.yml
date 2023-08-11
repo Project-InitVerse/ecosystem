@@ -3,7 +3,7 @@ version: "2.0"
 
 services:
   web:
-    image: ubicloud/ubicloud-hello-world:latest
+    image: docker.io/snakelyh/inichain-hello-world:latest
     expose:
       - port: 80
         as: 80
@@ -23,7 +23,7 @@ profiles:
   placement:
     dcloud:
       attributes:
-        host: ubicloud
+        host: inichain
       pricing:
         web:
           denom: uakt
